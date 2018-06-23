@@ -3,10 +3,13 @@
 
     This is a backup and restore tool for Ceph RBD image. You can use it to
     backup and restore your RBD images or transfer RBD images to other cluster.
-
+  
+    pip install pipreqs
+    pipreqs ./
+    
     To install the RBD backup restore tool, change directory to the
     source directory and exec './install.sh'.
-
+  
     The 'rbd-brctl' is entry/manage command for the RBD backup restore and
     is installed in /bin directory.
 
